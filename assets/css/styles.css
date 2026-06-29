@@ -54,9 +54,9 @@ h1, h2, h3, h4 {
   line-height: 1.12;
   font-weight: 600;
 }
-h1 { font-size: clamp(2.45rem, 5.6vw, 5.25rem); letter-spacing: -0.035em; }
-h2 { font-size: clamp(2rem, 3.5vw, 3.25rem); letter-spacing: -0.025em; }
-h3 { font-size: clamp(1.28rem, 2vw, 1.7rem); letter-spacing: -0.015em; }
+h1 { font-size: clamp(2.15rem, 4.2vw, 3.85rem); letter-spacing: -0.025em; }
+h2 { font-size: clamp(1.7rem, 2.8vw, 2.55rem); letter-spacing: -0.018em; }
+h3 { font-size: clamp(1.18rem, 1.7vw, 1.45rem); letter-spacing: -0.01em; }
 .container { width: min(100% - 2rem, var(--max)); margin-inline: auto; }
 .skip-link {
   position: absolute;
@@ -272,7 +272,7 @@ h3 { font-size: clamp(1.28rem, 2vw, 1.7rem); letter-spacing: -0.015em; }
 .section.compact { padding: 3.65rem 0; }
 .section.featured { background: var(--paper-soft); }
 .page-hero {
-  padding: 5.5rem 0 4rem;
+  padding: 4.25rem 0 3.25rem;
   background: linear-gradient(145deg, var(--paper) 0%, var(--paper-soft) 72%, var(--purple-soft) 100%);
 }
 .page-hero p { max-width: 760px; color: var(--muted); font-size: 1.15rem; margin-top: 1.1rem; }
