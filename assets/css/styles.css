@@ -334,14 +334,12 @@ h3 { font-size: clamp(1.12rem, 1.55vw, 1.35rem); letter-spacing: -0.006em; }
 .meta-item strong { display: block; color: var(--ink-deep); font-size: 0.88rem; }
 .meta-item span { display: block; color: var(--muted); font-size: 0.94rem; margin-top: 0.2rem; }
 .profile-photo {
-  min-height: 310px;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center;
   border-radius: var(--radius-md);
-  background: linear-gradient(145deg, var(--purple-soft), var(--green-soft));
-  display: grid;
-  place-items: center;
-  color: var(--lavender);
-  font-weight: 600;
-  text-align: center;
+  box-shadow: 0 14px 32px rgba(42, 39, 64, 0.08);
 }
 .pub-list { display: grid; gap: 1.1rem; }
 .pub {
