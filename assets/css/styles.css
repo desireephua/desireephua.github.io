@@ -264,6 +264,7 @@ h3 { font-size: clamp(1.12rem, 1.55vw, 1.35rem); letter-spacing: -0.006em; }
 .ecology-node.peers { left: 69%; top: 45%; }
 .ecology-node.school { left: 50%; top: 68%; }
 .ecology-node.digital { left: 26%; top: 75%; }
+.ecology-node.ai { left: 74%; top: 27%; background: var(--gold-soft); color: var(--ink-deep); }
 .ecology-node.culture { left: 76%; top: 75%; }
 .ecology-node.society { left: 50%; top: 12%; }
 .ecology-node.mechanism { left: 50%; top: 86%; background: var(--green-soft); color: var(--green); }
